@@ -1,0 +1,55 @@
+* {
+  margin: 10;
+}
+body {
+  background-color: #cd9042;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #131921;
+  color: rgb(187, 228, 163);
+  position: sticky;
+  top: 0;
+  align-items: center;
+}
+
+.headerform {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#input1 {
+  width: 260px;
+}
+
+.newresults {
+  /* margin: 200px; */
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding-left: 10%;
+  align-items: center;
+  margin: 40px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  width: 200px;
+  height: 50px;
+  border: solid;
+  border-color: blueviolet;
+  box-shadow: 10px 10px 0px #131921;
+}
+
+.temp_result {
+  /* padding-left: 36%; */
+  display: flex;
+  justify-content: space-around;
+  font-size: 500%;
+  justify-content: center;
+}
